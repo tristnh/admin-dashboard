@@ -6,6 +6,8 @@
     display: grid;
     grid-template-rows: 1fr 3fr;
     grid-template-columns: 1fr 5fr;
+    height: 100vh;
+    width: 100vw;
 }
 
 .header{
@@ -15,6 +17,10 @@
 .sidebar{
     background-color: #1992D4;
     color: white;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-rows: 90px 350px 150px;
+    
 }
 
 .main-content{
