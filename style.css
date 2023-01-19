@@ -60,3 +60,13 @@
 .main-content{
     background-color: #FFFFFF;
 }
+
+.header-2{
+    display: grid;
+    grid-template-columns: 150px 2fr 2fr;
+    justify-items: center;
+}
+
+.greeting{
+    justify-self: left;
+}
